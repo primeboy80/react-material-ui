@@ -5,7 +5,10 @@ import { useState } from "react";
 
 const useStyles = makeStyles((theme) => ({
     fab:{
-        position:"fixed !important",
+        /*'& .MuiButtonBase-root-MuiFab-root':{
+            position:"fixed !important"
+        },*/
+        //position:"fixed !important",//root 속성때문에 important 추가
         bottom:20,
         right:20
     }
@@ -16,7 +19,7 @@ const AddPost = () => {
   const [open, setOpen] = useState(false)
   return (
     <Tooltip title="Add" aria-label="Add" onClick={() => setOpen(true)}>
-      <Fab color="primary" className={classes.fab}>
+      <Fab color="primary" className={classes.fab} style={{position:"fixed"}}>
         <AddIcon/>
       </Fab>
     </Tooltip>

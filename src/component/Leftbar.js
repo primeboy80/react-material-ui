@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         color:"white",
         paddingTop: theme.spacing(10),
         backgroundColor: theme.palette.primary.main,
-        position:"sticky",
+        position:"sticky", //화면에서 사라지지 않게 하는 속성
         top:0,
         [theme.breakpoints.up('sm')]:{
             backgroundColor: "white",

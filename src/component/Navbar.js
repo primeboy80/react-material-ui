@@ -56,9 +56,8 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   icons:{
-      display:"flex",
       alignItems: "center",
-      display: (props) => (props.open ? "none" : "flex") 
+      display: (props) => (props.open ? "none" : "flex")
   },
   cancel:{
     [theme.breakpoints.up("sm")]: {
