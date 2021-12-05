@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
 const useStyles = makeStyles((theme) => ({
     fab:{
         '& .MuiButtonBase-root-MuiFab-root':{
-            position:"fixed !important"
+            position:"fixed"
         },
         bottom:20,
         right:20
