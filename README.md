@@ -11,7 +11,7 @@ In the project directory, you can run:
 #### `npm run build`
 
 Material UI를 이용한 반응형 개발.
-***
+*****
 ###AddPost.js
 
 Post 작성을 위한 버튼 위치를 고정하려고 아래처럼 사용했으나 동작하지 않음.<br/>
